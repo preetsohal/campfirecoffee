@@ -24,6 +24,28 @@ for (var i = 0; i < hours.length; i++) {
   var total = parseFloat((lbs + togo).toFixed(2));
   sum += total;
 
+  // var pikePlaceMarket = {
+  //       mincust: 14,
+  //       maxcust: 55,
+  //       avgcups: 1.2,
+  //       avglbs:  3.7,
+  //       // hourlycups:[],
+  //       // hourlyBeansnyLbs:0,
+  //       generateRandom: function() {
+  //         return Math.floor(Math.random() * (this.maxcust - this.mincust + 1)) + this.mincust;
+  //       },
+  // }
+  //
+  // var sum = 0;
+  // for (var i = 0; i < hours.length; i++) {
+  //   var p = document.createElement('p'); //"<p></p>"
+  //   var people = pikePlaceMarket.generateRandom();
+  //   var togo = parseFloat((people * pikePlaceMarket.avglbs).toFixed(2));
+  //   var cups = parseFloat((people * pikePlaceMarket.avgcups).toFixed(2));
+  //   var lbs = parseFloat((cups / 20).toFixed(2));
+  //   var total = parseFloat((lbs + togo).toFixed(2));
+  //   sum += total;
+
   // p.textContent = hours[i] + ": ";
   // p.textContent += total + " lbs";
   // p.textContent += " [" +  people + " customers, ";
