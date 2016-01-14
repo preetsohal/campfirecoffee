@@ -24,13 +24,13 @@ for (var i = 0; i < hours.length; i++) {
   var total = parseFloat((lbs + togo).toFixed(2));
   sum += total;
 
-  p.textContent = hours[i] + ": ";
-  p.textContent += total + " lbs";
-  p.textContent += " [" +  people + " customers, ";
-  p.textContent += cups + " cups ";
-  p.textContent += "(" + lbs  + " lbs), ";
-  p.textContent += togo + " lbs to-go]";
-  document.body.appendChild(p); //<body>...var p</body>
+  // p.textContent = hours[i] + ": ";
+  // p.textContent += total + " lbs";
+  // p.textContent += " [" +  people + " customers, ";
+  // p.textContent += cups + " cups ";
+  // p.textContent += "(" + lbs  + " lbs), ";
+  // p.textContent += togo + " lbs to-go]";
+  // document.body.appendChild(p); //<body>...var p</body>
   var time = document.createElement("th"); // "<td></td>"
   time.textContent = hours[i];  // <td>hours[i]</td>
   document.getElementById("times").appendChild(time); //<tr id="times">... var times</tr>

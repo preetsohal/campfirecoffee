@@ -1,1 +1,116 @@
-//my css wil be here 
+//my css wil be here
+
+body {
+  background-color: #C3D1B6;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,  th,td {
+    border: 1px solid black;
+  background-color: #FFCC66;
+
+  }
+header {
+  font-size:60px;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ff9326;
+  background-color: hsl(30, 100%, 57%);
+  text-shadow: 1px 1px 3px #111111;
+  border-color:#77945C;
+  margin:2px;
+  paddiing: inherit;
+  z-index: auto;
+}
+h2 {
+   font-family:  serif;
+   font-weight: bold;
+   font-style: oblique;
+   text-align: center;
+   text-decoration-color:gold;
+   color: #172907;
+   background-color: #A0B58B;
+
+
+}
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+ li{
+   float:left;
+
+   border-right: 1px solid #bbb;
+ }
+
+  a {
+
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 8px 4px 16px;
+    text-decoration: none;
+    background-color: #333;
+  }
+  a:hover {
+    background-color: #4CAF50;
+
+}
+   .background {
+    img.align:right;
+    float: right;
+    margin-left: 10px;
+    height: auto;
+    width: auto;
+    max-width: 500px;
+    max-height: 600px;
+    position: relative;
+
+
+}
+p  {
+    text-align: left;
+    font-weight: bolder;
+    color: black;
+    font-family: inherit;
+    font-size: 130%;
+    background-color: #B2CFBE;
+    border-radius: 2px solid green;
+}
+  blockquote{
+     float:right;
+     width: 375px;
+     color: red;
+     font-weight: bold;
+     font-size: 120%;
+     font-family: inherit;
+     background-color: #B2CFBE;
+     margin: 0px 0px 10px 10px;
+     padding: 10px;
+     border-top: 1px solid green;
+  }
+ img {
+      align-items:flex-end;
+     width: auto;
+    max-width: 250px;
+    max-height: 300px;
+ }
+ footer{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: normal;
+    background-color: skyblue;
+    margin: 2px;
+
+ }
