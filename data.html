@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Coffee Forecasting</title>
+    <link rel="stylesheet" href="css/data.css" charset="utf-8">
+  </head>
+  <body>
+    <script type="text/javascript" src="js/app.js"></script>
+    <section id='test'></section>
+
+    <form id ="new-store">
+      <fieldset>
+        <legend> Add a new store</legend>
+        <label for="location">location name: </label>
+        <input name="location" type="text"/>
+        <lable for="minHr">min Cust/Hr</lable>
+        <input name="minHr" type="number"min="0"step="1">
+       <lable  for="maxHr">max cust/Hr</lable>
+      <input name="maxHr" type="number"min="0"step="1">
+      <lable for="cupCust"> cups/cust</lable>
+      <input name="cupCust"type= "number"min="0"step="0.1">
+      <lable for="lbCust">lbs/cust</lable>
+      <input name="lbCust" type="number"min="0"step="0.1">
+      <button id="submit" onclick="myfunction()">submit data </button>
+    </fieldset>
+    </form>
+    <table>
+    <thead>
+        <tr id="times">
+        </tr>
+    </thead>
+        <tr id="data"></tr>
+        <tr id="data"></tr>
+    </table>
+
+     <section id='test'></section>
+  </body>
+</html>
